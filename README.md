@@ -2,12 +2,12 @@
 
 ### <div align="center">💻Projeto realizado na aula de Programação Web II, com o bjetivo de exercitar a integração do front-end, back-end e o banco de dados.</div>
 
-### 📌Objetivos:
+### 📌 Objetivos:
 - Criar um site de uma barbearia/salão de beleza;
 - Ter uma home page, destinada aos clientes;
 - Ter uma sessão para o administrador com usuário e senha, onde ele fará o cadastro de produtos, serviços e clientes.
 
-### 🎁Bônus:
+### 🎁 Bônus:
  - Rotina CRUD;
  - Possibilidade de receber feedback dos clientes e visualizar dentro da área privada (sessão administrador).
  
@@ -23,12 +23,7 @@
 </div>
 
 ##
-## <div align="center">🏡 Homepage</div>
-
-
-##
-## <div align="center">🔐 Área do administrador</div>
-
+### <div align="center">🏡 Link do site: <a href="http://barberduhel.onlinewebshop.net/index.php">barberduhel.onlinewebshop.net</a></div>
 
 ##
 ### <div align="center">Integrantes</div>
