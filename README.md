@@ -32,7 +32,4 @@
 
 ##
 ### <div align="center">Integrantes</div>
-![Player Card](https://user-images.githubusercontent.com/79329906/151826957-7f348429-d2f3-403b-891f-486a584247ce.svg)
-
-
-
+![Card 01](https://user-images.githubusercontent.com/79329906/151829772-bfa2acf4-56a3-4f13-8de2-d1c1dc328406.svg)
