@@ -12,7 +12,7 @@
  - Possibilidade de receber feedback dos clientes e visualizar dentro da área privada (sessão administrador).
  
 ##
-### <div align="center">🚀 Skils</div>
+### <div align="center">🚀 Skills</div>
 <div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
@@ -23,15 +23,15 @@
 </div>
 
 ##
-### <div align="center">🏡 Link do site: <a href="http://barberduhel.onlinewebshop.net/index.php" target="_blank">barberduhel.onlinewebshop.net</a></div>
+### <div align="center">🏡 Link do site: <a href="http://barberduhel.onlinewebshop.net/index.php">barberduhel.onlinewebshop.net</a></div>
 
 ##
 ### <div align="center">Integrantes</div>
 <div align="center">
  
- <a href="https://www.linkedin.com/in/hmirandas/">![Card 01](https://user-images.githubusercontent.com/79329906/151829772-bfa2acf4-56a3-4f13-8de2-d1c1dc328406.svg/?target=_blank)</a>
+ <a href="https://www.linkedin.com/in/hmirandas/">![Card 01](https://user-images.githubusercontent.com/79329906/151829772-bfa2acf4-56a3-4f13-8de2-d1c1dc328406.svg)</a>
  
- <a href="https://github.com/DuS0usa" target="_blank">![Card 3](https://user-images.githubusercontent.com/79329906/151837708-bbed3c36-75ab-4355-a9a0-60894abf7e85.svg)</a>
+ <a href="https://github.com/DuS0usa">![Card 3](https://user-images.githubusercontent.com/79329906/151837708-bbed3c36-75ab-4355-a9a0-60894abf7e85.svg)</a>
  
 </div>
 
