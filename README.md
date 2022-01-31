@@ -23,5 +23,16 @@
 </div>
 
 ##
-### <div align="center">👨‍💻👩‍💻 Integrantes</div>
+## <div align="center">🏡 Homepage</div>
+
+
+##
+## <div align="center">🔐 Área do administrador</div>
+
+
+##
+### <div align="center">Integrantes</div>
+![Player Card](https://user-images.githubusercontent.com/79329906/151826957-7f348429-d2f3-403b-891f-486a584247ce.svg)
+
+
 
