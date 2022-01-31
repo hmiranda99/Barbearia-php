@@ -1,0 +1,238 @@
+html,
+body{
+    padding: 10px;
+}
+
+/*------ vídeo ------*/
+div.content-hero {
+  position: relative;
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  height: 110vh;
+  background-attachment: fixed;
+  animation: fadeIn 3s ease-in;
+}
+
+div.panel-hero {
+  position: relative;
+  height: 110vh;
+  padding: 20px;
+  background-color: var(--grey-transparent-ligth);
+}
+
+div img.logo {
+  animation: fadeIn 2s ease;
+  margin-top: 20px;
+  width: 280px;
+  display: block;
+}
+
+div.panel-title {
+  display: inline-block;
+  color: var(--grey-ligth);
+  animation: fadeInUp 2s ease;
+}
+
+div.panel-title:nth-child(1) {
+  width: 65%;
+  margin-bottom: 10px;
+}
+
+div.panel-title:nth-child(2) {
+  width: 50%;
+}
+
+div.margin-title {
+  margin-top: 16%;
+}
+
+div.grid-content {
+  grid-template-columns: 80% 15%;
+}
+
+div ul li {
+  position: relative;
+  animation: fadeInRight 2s ease;
+  height: 54px;
+  width: 100%;
+}
+
+.hover:hover a::after {
+  position: absolute;
+  background-color: var(--grey-ligth);
+  animation: hover 500ms ease-in;
+  content: "";
+  width: 100%;
+  height: 3px;
+  bottom: 28px;
+  right: 1px;
+}
+
+.hover2:hover a::after {
+  position: absolute;
+  background-color: var(--grey-ligth);
+  animation: hover 500ms ease-in;
+  content: "";
+  width: 100%;
+  height: 3px;
+  bottom: 25px;
+  right: 1px;
+}
+
+@keyframes hover {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/*------ serviços ------*/
+.servicos-bg {
+  position: relative;
+  height: 90vh;
+  background-color: var(--wine);
+}
+
+.label-servicos{
+  z-index: 2;
+  position: absolute;
+  color: var(--grey-ligth);
+  padding: 20px;
+  left: 0px;
+  width: 33%;
+  height: 95%;
+}
+
+.button1 {
+  width: 100%;
+  height: 10vh;
+  padding: 14px 100px;
+  background-color: var(--grey-dark);
+  color: var(--grey-label);
+  border: none;
+  transition: 800ms all;
+  text-transform: uppercase;
+}
+
+div a.button1:hover{
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+/*------ produtos ------*/
+.produtos-bg {
+  position: relative;
+  height: 80vh;
+  background-color: var(--grey-dark);
+}
+
+.img {
+  position: relative;
+  width: 100%;
+}
+
+.label-produtos {
+  position: absolute;
+  background-color: var(--grey-transparent-ligth);
+  color: var(--grey-ligth);
+  padding: 20px;
+  right: 0px;
+  width: 36%;
+  height: 95%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.button-home {
+  width: 100%;
+  height: 10vh;
+  padding: 14px 100px;
+  background-color: var(--wine);
+  color: var(--grey-ligth);
+  border: none;
+  transition: 800ms all;
+  text-transform: uppercase;
+}
+
+.button-home:hover {
+  background-color: var(--grey-dark);
+  cursor: pointer;
+}
+
+.button-margin{
+  margin-top: 34px;
+  justify-content: end;
+}
+
+.icon-margin{
+  margin-left: 10px;
+}
+
+/*------ fale conosco ------*/
+.fale-bg {
+  height: 20vh;
+  background-color: var(--white);
+}
+
+.fale{
+  width: 70%;
+  text-transform: uppercase;
+  color: var(--grey-ligth);
+  background-color: var(--grey-label);
+}
+
+.enviar{
+  width: 30%;
+  background-color: var(--wine);
+  text-transform: uppercase;
+}
+
+/*------ nossos trabalhos ------*/
+.trabalhos-bg {
+  height: 99vh;
+  background-color: var(--grey-dark);
+}
+
+.trabalhos{
+  height: 20vh;
+  background-color: var(--white);
+  text-transform: uppercase;
+  color: var(--grey-label);
+}
+
+.size-img{
+  width: 20%;
+  height: 20%;
+}
+
+/*------ footer ------*/
+.footer-bg {
+  height: 26vh;
+  background-color: var(--grey-dark);
+  padding: 20px;
+}
+
+.img-size{
+  width: 280px;
+}
+
+.icon-margin-r{
+  margin-right: 10px;
+}
+
+.margin-bottom{
+  margin-bottom: 5px;
+}
+
+/*------ copyrigth ------*/
+.copy {
+  height: 6vh;
+  background-color: var(--grey-ligth);
+}
+
+
+

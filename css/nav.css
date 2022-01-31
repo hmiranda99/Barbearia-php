@@ -1,0 +1,52 @@
+.top-menu {
+  display: none;
+  position: fixed;
+  width: 100%;
+  transition: 800ms all;
+  background-color: var(--grey-dark);
+  padding: 2px 20px;
+  color: var(--grey-ligth);
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.top-menu ul,
+li {
+  display: inline-block;
+}
+
+.top-menu li {
+  width: max-content;
+  text-align: center;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  padding: 15.8px;
+}
+
+nav a {
+  letter-spacing: 1px;
+}
+
+.size{
+    width: 270px;
+}
+
+li {
+  padding-inline-end: 20px;
+}
+
+nav .button {
+  height: 50px;
+  width: 280px;
+  background-color: var(--wine);
+  color: var(--white);
+  border-radius: 4px;
+  transition: all 800ms;
+  text-transform: uppercase;
+}
+
+nav .button:hover {
+  filter: brightness(1.5);
+  cursor: pointer;
+}

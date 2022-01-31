@@ -1,0 +1,169 @@
+html,
+body {
+  background-color: var(--new-grey-bg) !important;
+}
+
+.content {
+  grid-template-columns: 14% 86%;
+}
+
+div.content-body {
+  padding: 0 80px;
+  height: 90%;
+}
+
+/*-- - - -| BARRA SUPERIOR DO SITE ^ | - - - --*/
+header {
+  background-color: var(--grey-dark);
+  color: var(--grey-ligth);
+  height: 10%;
+  box-shadow: -1px -1px 10px black;
+}
+
+.animate-header{
+    animation: fadeInDown 2s ease;
+}
+
+header div.header-inicio{
+    height: 100%;
+    width: 80%;
+    background-color: var(--grey-label);
+    padding: 20px 80px;
+}
+
+header div.header-final{
+    height: 100%;
+    width: 20%;
+    padding: 20px 80px;
+}
+
+header div.principal a {
+  width: 100px;
+  height: 100%;
+  background-color: var(--wine);
+  border-radius: 8px;
+  transition: 800ms all;
+}
+
+header div.principal a:hover{
+  background-color: var(--grey-ligth);
+  color: var(--wine);
+}
+
+/*-- - - -| NAVBAR CANTO ESQUERDO <<= | - - - --*/
+nav {
+  position: relative;
+  display: block;
+  height: 100vh;
+  background-color: var(--grey-dark);
+}
+
+.animate-nav{
+    animation: fadeInLeft 2s ease;
+}
+
+nav div.content-nav {
+  padding: 20px 5px 0px;
+  height: 100%;
+}
+
+nav div.content-img{
+  height: 10%;
+}
+
+nav div.content-menu {
+  position: relative;
+  height: 80%;
+  background-color: var(--grey-label);
+  margin-top: 62px;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+}
+
+nav div.content-opcoes {
+  margin-top: 60px;
+}
+
+nav img.img {
+  height: 76px;
+}
+
+nav div.circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  margin-top: -54px;
+  background-image: url(../images/perfil.jpg);
+  background-size: cover;
+  border: var(--grey-label) solid 6px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.animate-circulo{
+  animation: fadeInDown 2s ease;
+}
+
+nav div.linha {
+  width: 30%;
+  height: 0.6px;
+  background-color: var(--grey-ligth);
+  margin-top: 15px;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  height: 48px;
+  color: var(--grey-ligth);
+  transition: 800ms all;
+}
+
+ul.principal a li:hover,
+ul.principal a li:hover {
+  background-color: var(--grey-ligth);
+  color: var(--wine);
+  border-radius: 8px;
+}
+
+li a {
+  display: flex;
+  align-items: center;
+}
+
+.m-r {
+  margin-right: 8px;
+}
+
+.label-titulo .material-icons-round{
+  font-size: 60px;
+}
+
+.content-pagina {
+  width: 85%;
+  margin-left: 15%;
+  padding-top: 6%;
+}
+
+.nav {
+  position: fixed;
+  height: 100vh;
+  background-color: var(--grey-dark);
+  width: 215.4px;
+}
+
+.header {
+  background-color: var(--grey-dark);
+  color: var(--grey-ligth);
+  height: 10%;
+  box-shadow: -1px -1px 10px black;
+  width: 86%;
+  margin-left: 14%;
+  position: fixed;
+}

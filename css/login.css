@@ -1,0 +1,123 @@
+html,
+body{
+    padding: 10px;
+}
+
+main,
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+section.area-a {
+  position: relative;
+  height: 100%;
+  background-image: url(../images/login2.jpg);
+  background-size: cover;
+}
+
+section div.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--grey-transparent-ligth);
+  padding: 20px;
+}
+
+p.title {
+  text-transform: uppercase;
+  color: var(--grey-ligth);
+  animation: type 7s steps(45) infinite;
+  border-right: 4px solid var(--grey-ligth);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 44ch;
+  }
+}
+
+img.logo {
+  width: 176px;
+  display: block;
+}
+
+div.position-logo {
+  position: absolute;
+  bottom: 20px;
+  width: 96%;
+  animation: fadeInUp 2s ease;
+}
+
+section.area-b {
+  position: relative;
+  height: 100%;
+  background-color: var(--white);
+}
+
+div.heigth {
+  height: 100%;
+}
+
+section div.form {
+  position: absolute;
+  width: 50%;
+  animation: fadeIn 2s ease;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  color: var(--grey-label);
+}
+
+.title-login {
+  margin-bottom: 40px;
+}
+
+input {
+  margin-bottom: 20px;
+  height: 40px;
+  outline: none;
+}
+
+.input-login {
+  margin-top: 2px;
+  border: 2px solid var(--grey-label);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.button {
+  margin-top: 40px;
+  background-color: var(--wine);
+  color: var(--grey-ligth);
+  border-radius: 8px;
+  border: none;
+  transition: 800ms all;
+}
+
+.button:hover {
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+li {
+  margin-right: 15px;
+  transition: 500ms all;
+}
+
+li:hover{
+    border-bottom: 3px solid var(--white);
+}
+

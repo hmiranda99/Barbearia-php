@@ -1,0 +1,26 @@
+.content-header-list {
+    color: var(--grey-ligth);
+  }
+  
+  div.content-header-list a {
+    width: 250px;
+    height: 100%;
+    background-color: var(--grey-ligth);
+    color: var(--grey-dark);
+    border-radius: 8px;
+    transition: 800ms all;
+  }
+  
+  div.content-header-list a:hover,
+  div.content-header-list a:link a:hover {
+    background-color: var(--wine);
+    color: var(--grey-ligth);
+  }
+  
+  nav div.content-nav ul a:nth-child(5) li:nth-child(1) {
+    background-color: var(--grey-ligth);
+    color: var(--wine);
+    border-radius: 8px;
+  }
+  
+  

@@ -1,0 +1,118 @@
+div.content-header-list a {
+  width: 250px;
+  height: 100%;
+  background-color: var(--grey-ligth);
+  color: var(--grey-dark);
+  border-radius: 8px;
+  transition: 800ms all;
+}
+
+div.content-header-list a:hover,
+div.content-header-list a:link a:hover {
+  background-color: var(--wine);
+  color: var(--grey-ligth);
+}
+
+nav div.content-nav ul a:nth-child(3) li:nth-child(1) {
+  background-color: var(--grey-ligth);
+  color: var(--wine);
+  border-radius: 8px;
+}
+
+/*-- - - -| CADASTRO CLIENTES | - - - --*/
+main {
+  width: 100%;
+  height: 90%;
+  background-image: url(../images/bg-form.svg);
+  background-size: 120%;
+  animation: background 5s ease alternate infinite;
+}
+
+@keyframes background {
+  0% {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 50%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+
+main .card {
+  position: absolute;
+  width: 618px;
+  height: 586px;
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 8px 8px 28px black;
+}
+
+main .content-form {
+  height: 90%;
+}
+
+main .bg-form {
+  position: relative;
+  width: 100%;
+  padding: 280px;
+  background-color: var(--grey-dark);
+  background-size: cover;
+}
+
+label,
+input,
+textarea {
+  width: 100%;
+}
+
+div.label-titulo {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  margin-top: 8px;
+  outline: none;
+}
+
+.input {
+  padding: 8px;
+  border: 2px solid var(--grey-label);
+  border-radius: 8px;
+  background-color: var(--bg-input);
+}
+
+input {
+  height: 40px;
+}
+
+.button {
+  background-color: var(--blue);
+  color: var(--grey-ligth);
+  border-radius: 8px;
+  border: none;
+  transition: 800ms all;
+  margin-top: 15px;
+}
+
+.button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: transparent;
+  color: var(--blue);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 800ms all;
+}
+
+.button2:hover {
+  background-color: var(--bg-input);
+}

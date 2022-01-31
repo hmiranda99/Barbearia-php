@@ -1,0 +1,173 @@
+/*------ classes globais ------*/
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.content {
+  display: grid;
+  /*grid-template-columns: 50% 50%;*/
+  grid-template-areas: "a b";
+  /*height: 100vh;*/
+}
+
+.content .area-a {
+  grid-area: "a";
+}
+
+.content .area-b {
+  grid-area: "b";
+}
+
+.display-f {
+  display: flex;
+}
+
+.display-b {
+  display: block;
+}
+
+.display-ib{
+  display: inline-block;
+}
+
+.align-c {
+  align-items: center;
+}
+
+.justify-c {
+  justify-content: center;
+}
+
+.justify-e{
+  justify-content: end;
+}
+
+.justify-bt {
+  justify-content: space-between;
+}
+
+.f-90 {
+  font-size: 90px;
+  line-height: 82px;
+  text-transform: uppercase;
+}
+
+.f-70{
+  font-size: 70px;
+  line-height: 82px;
+  text-transform: uppercase;
+}
+
+.f-36 {
+  font-size: 36px;
+}
+
+.f-60{
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.f-24 {
+  font-size: 24px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-kanit {
+  font-family: "Kanit", sans-serif;
+}
+
+.f-mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.f-900 {
+  font-weight: 900;
+}
+
+.f-700 {
+  font-weight: 700;
+}
+
+.f-500 {
+  font-weight: 500;
+}
+
+.f-400 {
+  font-weight: 400;
+}
+
+.f-300 {
+  font-weight: 300;
+}
+
+.f-200 {
+  font-weight: 200;
+}
+
+div.heigth {
+  height: 100vh;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.over{
+  overflow: hidden;
+}
+
+.color-white{
+  color: var(--white);
+}
+
+.color-wine{
+  color: var(--wine);
+}
+
+.color-label{
+  color: var(--grey-label);
+}
+
+.color-blue{
+  color: var(--blue);
+}
+
+.color-grey-ligth{
+  color: var(--grey-ligth);
+}
+
+.upper{
+  text-transform: uppercase;
+}
+
+.display-n{
+  display: none;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.m-b{
+  margin-bottom: 10px;
+}
+
+.m-t{
+  margin-top: 40px;
+}

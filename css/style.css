@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,
+body{
+    background-color: var(--grey-dark);
+}
+
+a:visited,
+a:link{
+  color: var(--grey-ligth);
+}
+
+ul,
+li{
+  list-style-type: none;
+}
+
+/*------ variáveis ------*/
+html {
+  --grey-dark: #020b0e;
+  --grey-label: #172022;
+  --grey-transparent-ligth: rgba(23, 32, 34, 0.227);
+  --grey-ligth: #e7e7e7;
+  --white: #ffffff;
+  --wine: #940f15;
+  --bg-input: rgba(211, 221, 253, 0.506);
+  --blue: #2291E1;
+  --new-grey-bg: #0E171A;
+
+
+  scroll-behavior: smooth;
+}
+
+/*------ barra de rolagem ------*/
+/*------ fundo que corre ------*/
+::-webkit-scrollbar-track {
+  background-color: var(--grey-ligth);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/*------ linha que desce ------*/
+::-webkit-scrollbar-thumb {
+  background: var(--wine);
+  border-radius: 15px;
+}
