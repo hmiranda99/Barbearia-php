@@ -1,6 +1,6 @@
 # <div align="center">💈 Seja bem vindo a Barbearia Duhel! ✂️</div>
 
-### <div align="center">💻Projeto realizado na aula de Programação Web II, com o bjetivo de exercitar a integração do front-end, back-end e o banco de dados.</div>
+### <div align="center">💻 Projeto realizado na aula de Programação Web II, com o bjetivo de exercitar a integração do front-end, back-end e o banco de dados.</div>
 
 ### 📌 Objetivos:
 - Criar um site de uma barbearia/salão de beleza;
@@ -23,15 +23,15 @@
 </div>
 
 ##
-### <div align="center">🏡 Link do site: <a href="http://barberduhel.onlinewebshop.net/index.php">barberduhel.onlinewebshop.net</a></div>
+### <div align="center">🏡 Link do site: <a href="http://barberduhel.onlinewebshop.net/index.php" target="blank">barberduhel.onlinewebshop.net</a></div>
 
 ##
 ### <div align="center">Integrantes</div>
 <div align="center">
  
- <a href="https://www.linkedin.com/in/hmirandas/">![Card 01](https://user-images.githubusercontent.com/79329906/151829772-bfa2acf4-56a3-4f13-8de2-d1c1dc328406.svg)</a>
+ <a href="https://www.linkedin.com/in/hmirandas/" target="blank">![Card 01](https://user-images.githubusercontent.com/79329906/151829772-bfa2acf4-56a3-4f13-8de2-d1c1dc328406.svg)</a>
  
- <a href="https://github.com/DuS0usa">![Card 3](https://user-images.githubusercontent.com/79329906/151837708-bbed3c36-75ab-4355-a9a0-60894abf7e85.svg)</a>
+ <a href="https://github.com/DuS0usa" target="blank">![Card 3](https://user-images.githubusercontent.com/79329906/151837708-bbed3c36-75ab-4355-a9a0-60894abf7e85.svg)</a>
  
 </div>
 
