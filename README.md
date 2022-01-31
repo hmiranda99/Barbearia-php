@@ -29,7 +29,7 @@
 ### <div align="center">Integrantes</div>
 <div align="center">
  
- <a href="https://www.linkedin.com/in/hmirandas/" target="_blank">![Card 01](https://user-images.githubusercontent.com/79329906/151829772-bfa2acf4-56a3-4f13-8de2-d1c1dc328406.svg)</a>
+ <a href="https://www.linkedin.com/in/hmirandas/">![Card 01](https://user-images.githubusercontent.com/79329906/151829772-bfa2acf4-56a3-4f13-8de2-d1c1dc328406.svg) {:target="_blank"} </a>
  
  <a href="https://github.com/DuS0usa" target="_blank">![Card 3](https://user-images.githubusercontent.com/79329906/151837708-bbed3c36-75ab-4355-a9a0-60894abf7e85.svg)</a>
  
